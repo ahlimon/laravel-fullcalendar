@@ -1,29 +1,27 @@
 {
-    "name": "maddhatter/laravel-fullcalendar",
+    "name": "devlimon/laravel-fullcalendar",
     "description": "Laravel helper for FullCalendar.io",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Shawn Tunney",
-            "email": "shawn.tunney@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Shawn Tunney",
+        "email": "shawn.tunney@gmail.com"
+    }],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "^5.0|^6.0"
+        "illuminate/support": "~6.*"
     },
     "autoload": {
         "psr-0": {
-            "MaddHatter\\LaravelFullcalendar": "src/"
+            "devlimon\\LaravelFullcalendar": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MaddHatter\\LaravelFullcalendar\\ServiceProvider"
+                "devlimon\\LaravelFullcalendar\\ServiceProvider"
             ],
             "aliases": {
-                "Calendar": "MaddHatter\\LaravelFullcalendar\\Facades\\Calendar"
+                "Calendar": "devlimon\\LaravelFullcalendar\\Facades\\Calendar"
             }
         }
     },
